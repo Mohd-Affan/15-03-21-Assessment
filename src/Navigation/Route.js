@@ -53,6 +53,8 @@ export default function App() {
               iconName = focused ? 'home' : 'home-outline';
             } else if (route.name === 'Search') {
               iconName = focused ? 'search-circle-sharp' : 'search';
+            } else if (route.name === 'Call') {
+              iconName = focused ? 'call' : 'call-outline';
             } else if (route.name === 'Notifications') {
               iconName = focused ? 'notifications' : 'notifications-outline';
             } else if (route.name === 'Account') {

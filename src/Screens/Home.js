@@ -4,16 +4,25 @@ import Header from '../components/Header';
 import Firstrow from '../components/Firstrow';
 import ImgData from '../components/ImgData';
 import Secondrow from '../components/Secondrow';
+import Thirdrow from '../components/Thirdrow';
+import Fourthrow from '../components/Fourthrow';
+import Fifthrow from '../components/Fifthrow';
+import {ScrollView} from 'react-native-gesture-handler';
 
 export default class Home extends Component {
   render() {
     return (
-      <View>
-        <Header />
-        <ImgData />
-        <Firstrow />
-        <Secondrow />
-      </View>
+      <ScrollView>
+        <View>
+          <Header />
+          <ImgData />
+          <Firstrow />
+          <Secondrow />
+          <Thirdrow />
+          <Fourthrow />
+          <Fifthrow />
+        </View>
+      </ScrollView>
     );
   }
 }

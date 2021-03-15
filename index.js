@@ -13,4 +13,5 @@ import Secondrow from './src/components/Secondrow';
 import Home from './src/Screens/Home';
 import Thirdrow from './src/components/Thirdrow';
 import Fourthrow from './src/components/Fourthrow';
+import Fifthrow from './src/components/Fifthrow';
 AppRegistry.registerComponent(appName, () => App);
