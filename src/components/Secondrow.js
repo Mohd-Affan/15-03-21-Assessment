@@ -9,31 +9,31 @@ export default class Secondrow extends Component {
         <ScrollView horizontal={true}>
           <View style={styles.inside}>
             <View style={styles.icon}>
-              <FontAwesome5 name={'stethoscope'} size={40} />
+              <FontAwesome5 color="purple" name={'stethoscope'} size={40} />
             </View>
             <Text style={styles.txt}> Doctor {'\n'} Appointment</Text>
           </View>
           <View style={styles.inside}>
             <View style={styles.icon}>
-              <FontAwesome5 name={'leaf'} size={40} />
+              <FontAwesome5 color="purple" name={'leaf'} size={40} />
             </View>
             <Text style={styles.txt}> Wellness {'\n'} Packages </Text>
           </View>
           <View style={styles.inside}>
             <View style={styles.icon}>
-              <FontAwesome5 name={'smile-beam'} size={40} />
+              <FontAwesome5 color="purple" name={'smile-beam'} size={40} />
             </View>
             <Text style={styles.txt}> Ask {'\n'} Joy </Text>
           </View>
           <View style={styles.inside}>
             <View style={styles.icon}>
-              <FontAwesome5 name={'home'} size={40} />
+              <FontAwesome5 color="purple" name={'home'} size={40} />
             </View>
             <Text style={styles.txt}> Home {'\n'} Healthcare </Text>
           </View>
           <View style={styles.inside}>
             <View style={styles.icon}>
-              <FontAwesome5 name={'box'} size={40} />
+              <FontAwesome5 color="purple" name={'box'} size={40} />
             </View>
             <Text style={styles.txt}> Hospital {'\n'} Packages </Text>
           </View>
@@ -66,5 +66,7 @@ const styles = StyleSheet.create({
     height: 60,
     width: 60,
     borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });

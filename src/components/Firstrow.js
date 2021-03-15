@@ -7,16 +7,16 @@ export default class Firstrow extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.inside}>
-          <FontAwesome5 name={'capsules'} size={40} />
+          <FontAwesome5 color="mediumpurple" name={'capsules'} size={40} />
           <Text style={styles.txt}>Medicines</Text>
         </View>
 
         <View style={styles.inside}>
-          <FontAwesome5 name={'microscope'} size={40} />
+          <FontAwesome5 color="mediumpurple" name={'microscope'} size={40} />
           <Text style={styles.txt}>Tests And Packages</Text>
         </View>
         <View style={styles.inside}>
-          <FontAwesome5 name={'desktop'} size={40} />
+          <FontAwesome5 color="mediumpurple" name={'desktop'} size={40} />
           <Text style={styles.txt}>Online Consultation</Text>
         </View>
       </View>
